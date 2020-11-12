@@ -1,0 +1,274 @@
+// .brandhub-headline-m {
+//     font-size: 2.42857rem;
+//     line-height: 3.14286rem;
+// }
+
+.container_footer .brandhub-headline-m {
+    font-size: 2.42857rem;
+    line-height: 3.14286rem;
+    color: #fff;
+    font-family: MBCorpo Title,DaimlerCAC-Regular,Helvetica,Arial,sans-serif;
+}
+
+.container_footer {
+    background-color: black;
+    position: relative;
+    max-width: 100%;
+    padding: 0px;
+}
+
+.container_footer .path{
+    &::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background: #333;;
+        margin: 20px 0;
+        left: 0px;
+        right: 0px;
+    }
+}
+
+.container_footer {
+    float: left;
+   
+}
+// width: calc(100% - 60px);
+.container_footer .col-3{
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.container_footer .row{
+    width: calc(100% - 60px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.container_footer ul{
+    list-style: none;
+    padding: 0px;
+    color: #fff;
+}
+.container_footer .col-3 ul a {
+    color: #999;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.brandhub-footer{
+    *{
+     color: rgb(47,55,65);
+    }
+     font-family:sans-serif;
+     background-color: black;
+     .brandhub-section{
+         width: calc(100% - 40px);
+         margin-left:  auto;
+         margin-right: auto;
+         .brandhub-headline-m{
+                 font-size: 25px;
+                 
+ 
+         }
+         .path{
+            &::before {
+                content: "";
+                display: block;
+                width: 100%;
+                height: 1px;
+                background: #333;;
+                margin: 20px 0;
+                left: 0px;
+                right: 0px;
+            }
+        }
+        
+         .brandhub-footer-section{
+             
+                 .brandhub-footer__left{
+                     p{
+                        color: #999;
+                     }
+                     form{
+                         margin: 0 ;
+                         padding-right: 0;
+                         .input{
+                             // position: absolute;
+                             border-radius: 1px;
+                             padding: 5px 1rem;
+                             width: 70%;
+                             font-family: MBCorpo Title,DaimlerCAC-Regular,Helvetica,Arial,sans-serif;
+                             background-color: #2a2a2a;
+                         
+                             // padding:5px 0 ;
+                             input{
+                                 
+                                 &::placeholder{
+                                     color: white;
+                                     font-style: italic;
+                                 }
+                                 background-color: #2a2a2a;
+                                 width:100%;
+                                 border: none;
+                                 font-size: 15px;
+                                 height: 30px;
+                                 border:1px solid #2a2a2a;
+                                 color: white;
+                                 ::placeholder{
+                                     color: white;
+                                     opacity: 1;
+                                 }
+                                 &:focus{
+                                     outline: none;
+                                 }
+                                 font-size: 18px;
+                             
+                             }
+                            
+                         }
+                         button{
+                             padding: 5px 20px;
+                             font-size: 14px;
+                             width: auto;
+                             background: linear-gradient(#242424,#0b0b0b);
+                             text-align: left;
+                             width: 20%;
+                             border: none;
+                             color: #999;
+                             &:focus{
+                                 outline: none;
+                             }
+                             span{
+                                 color: #999;
+                             }
+                             span:hover{
+                                 color:#00adef;
+                             }
+                         }
+     
+                     }
+                     .privacy{
+                             .privacy_check {
+                                
+                                font-size: 14px;
+                                span{
+                                        color: #fff;
+                                    }
+                                span:hover{
+                                    color: #00adef;
+                                }
+                                label{
+                                    color: #999;
+                                }
+                                input{
+                                    box-sizing: border-box;
+                                    padding: 0;
+                                    background: #999;
+                                    margin: 0px;
+                                    opacity: 0px;
+                                    // position: absolute;
+                                    z-index: 1;
+                                }
+                                 
+                             }
+                         }
+                    
+                 }
+                 .brandhub-footer__right{
+                     p{
+                         color: #999;
+                     }
+                     ul{
+                         padding: 0;
+                         li{
+                             list-style: none;
+                             // margin: 0 30px;
+                             i{
+                                 color: #999;
+                             }
+                             i:hover{
+                                 color: #00adef;
+                             }
+                         }
+                     }
+                 }
+             
+           
+         }
+     }
+ }
+
+ .brandhub-footer .brandhub-headline-m {
+    font-family: MBCorpo Title,DaimlerCAC-Regular,Helvetica,Arial,sans-serif;
+ }
+
+ .brandhub-section .brandhub_p p{
+     color: #999;
+ }
+
+ .footersection{
+     background-color: black;
+     margin: 0px;
+     .footer_margin{
+         margin-left: 20px;
+         margin-right: 20px;
+         padding-top: 10px;
+         padding-bottom: 40px;
+     }
+     .path{
+        &::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background: #333;;
+            margin: 20px 0;
+            margin-top: 0px;
+            left: 0px;
+            right: 0px;
+        }
+     }
+     ul li{
+        list-style: none;
+     }
+     .row{
+         margin: 0px;
+     }
+     img{
+        
+        height: 2em;
+        width: 100%;
+        
+    }
+ }
+
+ .footer_end{
+    background-color: black;
+    margin: 0px;
+    padding-bottom: 20px;
+    .path{
+        &::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background: #333;;
+            margin: 20px 0;
+            margin-top: 0px;
+            left: 0px;
+            right: 0px;
+        }
+     }
+    .brandhub-paragraph-text{
+        color: #999;    
+        a{
+            color: white;
+        }
+     }
+     .brandhub-meta-lang-wrapper li{
+         list-style: none;
+     }
+ }
+ 

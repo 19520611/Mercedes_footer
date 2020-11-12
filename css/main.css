@@ -1,0 +1,268 @@
+.container_footer .brandhub-headline-m {
+  font-size: 2.42857rem;
+  line-height: 3.14286rem;
+  color: #fff;
+  font-family: MBCorpo Title,DaimlerCAC-Regular,Helvetica,Arial,sans-serif;
+}
+
+.container_footer {
+  background-color: black;
+  position: relative;
+  max-width: 100%;
+  padding: 0px;
+}
+
+.container_footer .path::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #333;
+  margin: 20px 0;
+  left: 0px;
+  right: 0px;
+}
+
+.container_footer {
+  float: left;
+}
+
+.container_footer .col-3 {
+  display: block;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.container_footer .row {
+  width: calc(100% - 60px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container_footer ul {
+  list-style: none;
+  padding: 0px;
+  color: #fff;
+}
+
+.container_footer .col-3 ul a {
+  color: #999;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.brandhub-footer {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.brandhub-footer * {
+  color: #2f3741;
+}
+
+.brandhub-footer .brandhub-section {
+  width: calc(100% - 40px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brandhub-footer .brandhub-section .brandhub-headline-m {
+  font-size: 25px;
+}
+
+.brandhub-footer .brandhub-section .path::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #333;
+  margin: 20px 0;
+  left: 0px;
+  right: 0px;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__left p {
+  color: #999;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__left form {
+  margin: 0;
+  padding-right: 0;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__left form .input {
+  border-radius: 1px;
+  padding: 5px 1rem;
+  width: 70%;
+  font-family: MBCorpo Title,DaimlerCAC-Regular,Helvetica,Arial,sans-serif;
+  background-color: #2a2a2a;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__left form .input input {
+  background-color: #2a2a2a;
+  width: 100%;
+  border: none;
+  font-size: 15px;
+  height: 30px;
+  border: 1px solid #2a2a2a;
+  color: white;
+  font-size: 18px;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__left form .input input::placeholder {
+  color: white;
+  font-style: italic;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__left form .input input ::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__left form .input input:focus {
+  outline: none;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__left form button {
+  padding: 5px 20px;
+  font-size: 14px;
+  width: auto;
+  background: linear-gradient(#242424, #0b0b0b);
+  text-align: left;
+  width: 20%;
+  border: none;
+  color: #999;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__left form button:focus {
+  outline: none;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__left form button span {
+  color: #999;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__left form button span:hover {
+  color: #00adef;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__left .privacy .privacy_check {
+  font-size: 14px;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__left .privacy .privacy_check span {
+  color: #fff;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__left .privacy .privacy_check span:hover {
+  color: #00adef;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__left .privacy .privacy_check label {
+  color: #999;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__left .privacy .privacy_check input {
+  box-sizing: border-box;
+  padding: 0;
+  background: #999;
+  margin: 0px;
+  opacity: 0px;
+  z-index: 1;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__right p {
+  color: #999;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__right ul {
+  padding: 0;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__right ul li {
+  list-style: none;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__right ul li i {
+  color: #999;
+}
+
+.brandhub-footer .brandhub-section .brandhub-footer-section .brandhub-footer__right ul li i:hover {
+  color: #00adef;
+}
+
+.brandhub-footer .brandhub-headline-m {
+  font-family: MBCorpo Title,DaimlerCAC-Regular,Helvetica,Arial,sans-serif;
+}
+
+.brandhub-section .brandhub_p p {
+  color: #999;
+}
+
+.footersection {
+  background-color: black;
+  margin: 0px;
+}
+
+.footersection .footer_margin {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.footersection .path::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #333;
+  margin: 20px 0;
+  margin-top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.footersection ul li {
+  list-style: none;
+}
+
+.footersection .row {
+  margin: 0px;
+}
+
+.footersection img {
+  height: 2em;
+  width: 100%;
+}
+
+.footer_end {
+  background-color: black;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+
+.footer_end .path::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #333;
+  margin: 20px 0;
+  margin-top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.footer_end .brandhub-paragraph-text {
+  color: #999;
+}
+
+.footer_end .brandhub-paragraph-text a {
+  color: white;
+}
+
+.footer_end .brandhub-meta-lang-wrapper li {
+  list-style: none;
+}
+/*# sourceMappingURL=main.css.map */
